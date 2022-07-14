@@ -14,6 +14,8 @@ gem "devise", "~> 4.8"
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'toastr-rails'
+gem 'omniauth', '~> 1.6'
+gem 'omniauth-twitter'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
