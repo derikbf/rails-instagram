@@ -13,6 +13,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem "devise", "~> 4.8"
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
+gem 'toastr-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
